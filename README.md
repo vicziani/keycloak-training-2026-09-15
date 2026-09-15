@@ -7,13 +7,13 @@
 ```
 
 ```shell
-docker compose up -d
+docker compose -f https://raw.githubusercontent.com/vicziani/keycloak-training-2026-09-15/refs/heads/master/compose/docker-compose.yml up -d
 ```
 
 ```shell
-docker compose --profile app up -d
+docker compose -f https://raw.githubusercontent.com/vicziani/keycloak-training-2026-09-15/refs/heads/master/compose/docker-compose.yml --profile app up -d
 ```
 
 ```shell
-docker compose --profile app down
+docker compose -f https://raw.githubusercontent.com/vicziani/keycloak-training-2026-09-15/refs/heads/master/compose/docker-compose.yml --profile app down
 ```
